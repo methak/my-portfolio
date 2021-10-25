@@ -16,15 +16,15 @@ function Project() {
             <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', mt: 10, ml: 20 }}>
                 My Project
             </Typography>
-            <Box sx={{ flexGrow: 1, my: 10, mx: 20 }}>
+            <Box sx={{ flexGrow: 1, my: 6, mx: 20 }}>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
                         <Card sx={{ minWidth: 345 }}>
                             <CardMedia
                                 component="img"
-                                alt="green iguana"
-                                height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                alt="Project JAM"
+                                height="240"
+                                image="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -47,8 +47,8 @@ function Project() {
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
-                                height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                height="240"
+                                image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -70,8 +70,8 @@ function Project() {
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
-                                height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                height="240"
+                                image="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -93,8 +93,8 @@ function Project() {
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
-                                height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                height="240"
+                                image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">

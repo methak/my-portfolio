@@ -28,7 +28,7 @@ export default function Header() {
           <Button color="secondary">Experience</Button>
           <Button color="secondary">Project</Button>
           <Button color="secondary">Contact</Button>
-          <Button color="secondary" variant="outlined">Resume</Button>
+          <Button color="secondary" variant="outlined" href="./Metha-Resume.pdf">Resume</Button>
         </Toolbar>
       </AppBar>
     </Box>
