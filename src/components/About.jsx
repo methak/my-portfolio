@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 
 function About() {
     return (
-        <Box sx={{ p: 20 }}>
+        <Box sx={{ mx: 20 }}>
             <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', py: 2 }}>
                 About Me
             </Typography>
