@@ -47,7 +47,7 @@ export default function Experience() {
 
   return (
     <>  
-    <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', py: 2, ml:20, mt:10 }}>
+    <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', py: 2, ml:20, mt:10 }} id="exp">
     Working Experience
     </Typography>
     

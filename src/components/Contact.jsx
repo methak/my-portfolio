@@ -30,7 +30,7 @@ export default function Contact() {
   }
 
   return (
-    <Box sx={{ mx: 20 }} >
+    <Box sx={{ mx: 20 }} id="contact" >
       <h1>Contact</h1>
       <form
         name="contact"

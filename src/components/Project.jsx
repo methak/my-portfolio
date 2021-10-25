@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 function Project() {
     return (
         <>
-            <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', mt: 10, ml: 20 }}>
+            <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', mt: 10, ml: 20 }} id="project">
                 My Project
             </Typography>
             <Box sx={{ flexGrow: 1, my: 6, mx: 20 }}>
