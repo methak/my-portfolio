@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-
+import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -12,14 +12,14 @@ import Button from '@mui/material/Button';
 
 function Project() {
     return (
-        <>
-            <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', mt: 10, ml: 20 }} id="project">
+        <Container sx={{ maxWidth: 'md' }}>
+            <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', mt: 10 }} id="project">
                 My Project
             </Typography>
-            <Box sx={{ flexGrow: 1, my: 6, mx: 20 }}>
+            <Box sx={{ flexGrow: 1, my: 6 }}>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
-                        <Card sx={{ minWidth: 345 }}>
+                        <Card >
                             <CardMedia
                                 component="img"
                                 alt="Project JAM"
@@ -43,7 +43,7 @@ function Project() {
                     </Grid>
 
                     <Grid item xs={6}>
-                        <Card sx={{ minWidth: 345 }}>
+                        <Card >
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
@@ -66,7 +66,7 @@ function Project() {
                         </Card>
                     </Grid>
                     <Grid item xs={6}>
-                        <Card sx={{ minWidth: 345 }}>
+                        <Card>
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
@@ -89,7 +89,7 @@ function Project() {
                         </Card>
                     </Grid>
                     <Grid item xs={6}>
-                    <Card sx={{ minWidth: 345 }}>
+                        <Card>
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
@@ -113,7 +113,7 @@ function Project() {
                     </Grid>
                 </Grid>
             </Box>
-        </>
+        </Container>
     )
 }
 

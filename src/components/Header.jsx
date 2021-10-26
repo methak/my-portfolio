@@ -9,6 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
 import PropTypes from 'prop-types';
+import Stack from '@mui/material/Stack';
+
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -35,7 +37,7 @@ HideOnScroll.propTypes = {
 };
 export default function Header(props) {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, maxWidth: 'md' }}>
       <HideOnScroll {...props}>
       <AppBar   color= "primary">
         <Toolbar>
@@ -51,11 +53,13 @@ export default function Header(props) {
           <Typography variant="h6" component="div" color="secondary" sx={{ flexGrow: 1 }}>
           
           </Typography>
-          <Button color="secondary" href="#about">About</Button>
-          <Button color="secondary" href="#exp">Experience</Button>
-          <Button color="secondary" href="#project">Project</Button>
-          <Button color="secondary" href="#contact">Contact</Button>
-          <Button color="secondary" variant="outlined" href="./Metha-Resume.pdf">Resume</Button>
+            <Stack direction="row" spacing={2}>
+              <Button color="secondary" href="#about">About</Button>
+              <Button color="secondary" href="#exp">Experience</Button>
+              <Button color="secondary" href="#project">Project</Button>
+              <Button color="secondary" href="#contact">Contact</Button>
+              <Button color="secondary" variant="outlined" href="./Metha-Resume.pdf">Resume</Button>
+            </Stack>
         </Toolbar>
       </AppBar>
       </HideOnScroll>

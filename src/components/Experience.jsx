@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
 function TabPanel(props) {
@@ -46,14 +47,12 @@ export default function Experience() {
   };
 
   return (
-    <>  
-    <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', py: 2, ml:20, mt:10 }} id="exp">
+    <Container sx={{ maxWidth: 'md' }}>  
+    <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', mt:10 }} id="exp">
     Working Experience
     </Typography>
     
-    <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 250, width: "70%", ml:20 }}
-    >
+    <Box sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 240,mt :4, pt:2}} >
       <Tabs
         orientation="vertical"
         variant="scrollable"
@@ -62,7 +61,7 @@ export default function Experience() {
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 2, borderColor: 'divider' }}
+        sx={{ borderRight: 2, borderColor: 'divider' , minWidth :120 }}
       >
         <Tab label="ServeMeQuick"  {...a11yProps(0)} />
         <Tab label="GE Capital" {...a11yProps(1)} />
@@ -93,7 +92,7 @@ export default function Experience() {
       </TabPanel>
       
     </Box>
-    </>
+    </Container>
   );
 }
 

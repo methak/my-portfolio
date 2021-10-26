@@ -1,5 +1,6 @@
 import React from 'react'
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
 function encode(data) {
   return Object.keys(data)
@@ -30,7 +31,8 @@ export default function Contact() {
   }
 
   return (
-    <Box sx={{ mx: 20 }} id="contact" >
+    <Container sx={{ maxWidth: 'md' }}>
+    <Box sx={{  }} id="contact" >
       <h1>Contact</h1>
       <form
         name="contact"
@@ -73,5 +75,6 @@ export default function Contact() {
         </p>
       </form>
     </Box>
+    </Container>  
   )
 }
