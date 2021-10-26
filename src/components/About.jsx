@@ -13,7 +13,7 @@ function About() {
             <Grid container  >
                 <Grid item xs={8} id="about">
                     <Typography component="div" variant="h4" color="secondary" sx={{ fontWeight: 'medium', pb:4 }}>
-                        About Me
+                        About Me<span> : Metha Kusumapan</span>
                     </Typography>
                     <Typography component="div" >
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am originally from Thailand. After I graduated as a computer engineer, I worked a few years in Tech companies in Bangkok. I realized I can improve myself by learning something new so I decided to move to the U.S. Personally, I am passionate about art therefore I went to UCLA extension to study design communication art. I had a chance to work in a startup company who built the restaurant online ordering app. From this role, I got such a great experience. I worked many roles, gained an understanding of teamwork, dealt with customers, and solved problems with teams.
