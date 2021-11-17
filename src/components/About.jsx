@@ -36,10 +36,12 @@ function About() {
                 <Chip label="CSS" variant="outlined" color="secondary" />
                 <Chip label="JavaScript" variant="outlined" color="secondary" />
                 <Chip label="React" variant="outlined" color="secondary" />
+                <Chip label="Gatsby" variant="outlined" color="secondary" />
                 <Chip label="Node. js" variant="outlined" color="secondary" />
                 <Chip label="SQL" variant="outlined" color="secondary" />
                 <Chip label="GraphQL" variant="outlined" color="secondary" />
                 <Chip label="Python" variant="outlined" color="secondary" />
+                <Chip label="MongoDB" variant="outlined" color="secondary" />
             </Stack>
             </Box>
         </Container>
